@@ -1,0 +1,264 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  max-width: 1280px;
+  height: 2674px;
+  padding: 0px, 0px, 56px, 0px;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 1180px;
+  /* border: 2px solid black; */
+  padding: 30px 50px;
+}
+@media screen and (max-width: 620px){
+  .heading{
+    width: 100%;
+  }
+}
+.rectangle1 {
+  width: 29px;
+  height: 4px;
+  background-color: black;
+  border-color: black;
+  margin-bottom: 4px;
+}
+.rectangle2 {
+  width: 24.86px;
+  height: 4px;
+  background-color: black;
+  border-color: black;
+  margin-bottom: 4px;
+}
+.rectangle3 {
+  width: 20.71px;
+  height: 4px;
+  background-color: black;
+  border-color: black;
+}
+.logotext {
+  width: 79px;
+  height: 27px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.cartsection {
+  display: flex;
+}
+.cart {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+.cart:hover {
+  color: blue;
+}
+img {
+  width: 24px;
+  height: 21px;
+  margin-left: 3px;
+}
+.login {
+  font-size: 18px;
+  font-weight: 400px;
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+}
+.login:hover {
+  color: blue;
+}
+
+.firstSection {
+  width: 1280px;
+  height: 752px;
+  background-color: white;
+  /* border: 1px solid black; */
+}
+@media screen and (max-width: 620px){
+  .firstSection{
+    width: 100%;
+  }
+}
+.textsection {
+  display: flex;
+  width: 320px;
+  height: 311px;
+  margin: 152px 845px 17px 52px;
+}
+.kasiaHeading {
+  font-size: 28px;
+  font-weight: 700px;
+  width: 181px;
+  margin-bottom: 15px;
+}
+.kasiaParagraph {
+  font-size: 16px;
+  font-weight: 400px;
+  width: 320px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+.price {
+  font-size: 16px;
+  font-weight: 500px;
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+button {
+  padding: 10px 52px;
+  background-color: transparent;
+  border: 1px solid black;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(39, 38, 38);
+  color: white;
+}
+.sunshade {
+  width: 487px;
+  height: 244px;
+  margin-left: 347px;
+}
+.imageChoice {
+  display: flex;
+  margin-left: 850px;
+  /* margin-top: 53px; */
+}
+.arrowleft,
+.arrowright{
+  width: 24px;
+  height: 24px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+.imageChoice p {
+  font-size: 16px;
+  font-weight: 400px;
+  padding: 20px;
+}
+.productdetail {
+  display: flex;
+  margin-left: 178px;
+}
+.arrowdown {
+  width: 24px;
+  height: 24px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.productdetail p {
+  font-size: 16px;
+  font-weight: 400px;
+  padding: 15px;
+}
+.secondSection {
+  background-color: white;
+  background-attachment: fixed;
+  width: 1180px;
+  height: 1786px;
+  align-self: center;
+  /* border: 1px solid black; */
+}
+.fashion {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.fashion p {
+  font-size: 20px;
+  font-weight: 400px;
+  font-family: inter;
+  cursor: pointer;
+   /* margin-top: 20px; */
+}
+.p-one ~ p {
+  margin-left: 15px;
+}
+p:hover {
+  color: blue;
+}
+.productsection{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+/* padding: 5px;
+  margin-left: 5px; */
+}
+.product{
+  width: 289px;
+  height: 448px;
+  margin: 60px 50px ;
+  background-color: rgb(238, 236, 236);
+  /* margin-bottom: 3rem; */
+  /* width: 30%; */
+}
+.productCart {
+  width: 24px;
+  height: 21px;
+  margin: 14px 14px 0px 228px;
+  cursor: pointer;
+}
+.images {
+  width: 250px;
+  height: 250px;
+  margin-left: 18px;
+}
+.productsection h2 {
+  font: 700px 22px;
+  width: 229px;
+  text-align: center;
+  margin: 0px 30px;
+}
+.productsection p {
+  font: 500px 16px;
+  text-align: center;
+  margin: 11px;
+}
+.productsection button {
+  padding: 10px 52px;
+  background-color: transparent;
+  border: 1px solid black;
+  font-size: 16px;
+  margin: 5px 59px 24px 60px;
+  cursor: pointer;
+}
+.productsection button:hover{
+  background-color: rgb(39, 38, 38);
+}
+.perfume{
+  height: 204px;
+  width: 204px;
+  margin: 20px 42px 25px
+}
+.gloves{
+  height: 204px; 
+  width: 204px; 
+  margin: 20px 42px 25px;
+}
+.trouser{
+  height: 194px; 
+  width: 130px; 
+  margin: 29px 79px 30px;
+}
+.shoe{
+  height: 111px;
+  width: 200px;
+  padding: 50px;
+  margin-bottom: 40px;
+}
+.sock{height: 204px;
+ width: 204px;
+ margin: 20px 42px 25px;
+}
